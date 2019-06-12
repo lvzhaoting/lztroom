@@ -1,0 +1,346 @@
+.onebig {
+	height: 40px;
+	background-color: #333;
+
+}
+.bigtwo {
+	float: left;
+	width: 800px;
+  
+}
+ .bigtwo a {
+
+	font-size: 8px;
+	text-decoration: none;
+	line-height: 40px;
+	color: #b0b0b0;
+	
+	
+}
+
+.bigthree a {
+
+	font-size: 8px;
+	text-decoration: none;
+	line-height: 40px;
+	color: #b0b0b0;
+	
+	
+}
+
+.bigfive a {
+
+	text-decoration: none;
+	line-height: 40px;
+	font-size: 14px;
+	color: #b0b0b0;
+	display: block;
+	text-align: center;
+
+
+
+
+
+}
+
+
+.bigtwo a:hover {
+	color: #fff;
+}
+
+
+.bigthree a:hover {
+	color: #fff;
+}
+
+.bigfive a:hover{
+	color: orange;
+	background-color: #fff;
+	
+}
+/*.bigfive :hover {
+	background-color: #fff;
+}*/
+
+
+
+.bigthree {
+    width: 200px;
+    float: right;
+ 	
+ }
+ .bigfour {
+ 	width: 1400px;
+ 	margin: 0 auto;
+ }
+ .bigfive {
+ 	height: 40px;
+ 	width: 100px;
+ 	float: right;
+ 	/*color: #b0b0b0;*/
+ 	background-color: #424242;
+
+ }
+
+ .bigsix {
+			width: 316px;
+			height: 200px;
+			background-color: #fff;
+			display: none;
+			position: absolute;
+			box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+			text-align: center;
+
+
+
+		}
+		.bigfive:hover .bigsix {
+			display: block;
+		}
+
+
+
+ /*第二段*/
+ .twobig {
+ 	margin: 0 auto;
+ 	width: 1400px;
+ 	height: 80px;
+
+ }
+ .twobigone {
+ 	margin: 12px auto;
+ 	float: left;
+ }
+
+ .twobigtwo {
+ 	width: 700px;
+ 	height: 80px;
+ 	float: right;
+ }
+
+ .twobigtwo span {
+ 	font-size: 18px;
+  display: line-block;
+  line-height: 80px;
+ }
+
+
+
+ .twobigtwo span:hover {
+ 	color: orange;
+
+ }
+
+ .tbthree{
+
+ 	float: right;
+ 	margin: 0 auto;
+ 	width: 200px;
+ 	height: 80px;
+ 	margin-left: 200px;
+ }
+ .in1 {
+ 	margin-top: 20px;
+ 	width: 150px;
+ 	height: 40px;
+ 	float: left;
+
+ }
+ .in2 {
+ 	width: 42px;
+ 	height: 40px;
+ 	margin-top: 20px;
+ 	float: right;
+ }
+
+ .tbt1 {
+ 	display: none;
+   width: 400px;
+   height: 200px;
+   background-color: red;
+}
+
+.tbt1 .tbt2 a {
+	display: block;
+    width: 150px;
+    height: 150px;
+    background-image: url(images/x.jpg);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 10px;
+
+}
+.tbt1:hover {
+	display: block;
+}
+
+
+
+
+
+
+
+/*第三块*/
+.threebig {
+	width: 1400px;
+	height: 460px;
+	background-image: url(images/mi.jpg);
+	/*background-color: pink;*/
+	margin:0 auto;
+ }
+
+ .thb1 {
+ 	background: rgba(0,0,0,0.6);
+
+ 	width: 300px;
+ 	height: 460px;
+ 	/*float: left;*/
+ }
+ li{
+ 	height: 42px;
+ }
+ .thb1 ul {
+ 	list-style-type: none;
+
+
+
+ }
+ .thb1 ul >li {
+
+ 	line-height: 42px;
+ 	color: #fff;
+
+
+ }
+ .thb1 ul >li:hover{
+ 	background-color:#ff6700;
+
+ }
+ .thb2 a {
+ 	text-decoration: none;
+ 	color: #fff;
+ 
+
+ 	/*font-size: normal;*/
+
+ }
+ .thb2 a:hover {
+ 	display: block;
+ 	color: #fff;
+ }
+
+ .thb3{
+ 	display: none;
+ 	width: 1100px;
+ 	height: 460px;
+ 	background-color:pink;
+	position:relative;
+	left: 260px;
+
+
+ }
+ .thb2:hover .thb3{
+ 	display: block;
+ }
+
+
+
+
+
+ /*.thb2 ul>li {
+ 	
+     width: 200px;
+    border: 1px solid;
+    line-height: 73px;
+
+ }
+ .thb2 .thb2_ul {
+ 	display: none;
+ }
+ .thb2 :hover {
+ 	display: block;
+ }*/
+
+/*.fourbig {
+	width: 90px;
+	height: 500px;
+	border: 1px solid #757575;
+
+	
+	position: fixed;
+	right: 0;
+	top: 105px;
+
+	}
+
+ .fb1 { 
+ 	width: 90px;	
+ 	height: 100px;	
+ 	border:1px solid #757575;
+ }
+
+ .fb1 img {
+ 	display: inline-block;
+ 	padding-left: 14px;
+ 	padding-top: 5px;
+ } 
+.fb1 p {
+	font-size: 13px;
+	text-align: center;
+	margin:0 auto;
+	color: #757575;
+}
+.fb2 {
+	display: block;
+
+}
+.fb3 {
+	
+	display: none;
+
+}
+*/
+.sidebar{
+    width: 82px;
+    position: fixed;
+    right: 0;
+    top: 40px;
+    bottom: 70px; 
+    right: 44px;
+    z-index: 9999;
+}
+.side-nav{
+    display: block;
+    width: 82px;
+    height: 90px;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+    border-top: none;
+}
+.side-nav a{
+    color: #757575;
+}
+.side-nav .iconfont{
+    display: block;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+    margin: 0 0 0 27px;
+}
+.side-nav i{
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    margin: 8px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+}
+.side-nav a:hover{
+    color: #ff6700;
+}
+
+
+

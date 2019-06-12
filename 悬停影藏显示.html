@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+
+		span {
+			width: 100px;
+			height: 100px;
+			border: 1px solid saddlebrown ;
+			padding: 10px;
+
+			
+
+		}
+		div,span {
+			margin: 10px;
+		}
+
+		.ok {
+			width: 100px;
+			height: 100px;
+			background-color: blue;
+			display: none;
+			position: absolute;
+
+
+		}
+ 
+		.okk {
+			width: 100px;
+			height: 100px;
+			background-color: green;
+			display: none;
+
+		}
+		 .one:hover .ok {
+			display: block;
+		}
+
+		
+
+		.two:hover .okk {
+			display: block;
+		}
+
+		.one:hover {
+			background-color: red;
+		}
+		.two:hover {
+			background-color: red;
+
+		}
+
+
+
+
+
+	</style>
+</head>
+<body>
+	父子关系
+	<div>
+		<div >
+			<span class="one">
+				悬停1
+				<div class="ok">悬停1内容</div>
+
+
+
+			</span>
+			<span class="two">
+				悬停2
+				<div class="okk">悬停2内容</div>
+
+			</span>
+		</div>
+
+
+
+	</div>
+
+</body>
+</html>
